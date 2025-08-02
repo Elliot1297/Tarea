@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Online</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #0077cc;
+      padding: 1rem 2rem;
+      color: white;
+      text-align: center;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+      color: #0077cc;
+    }
+
+    .producto {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .producto img {
+      width: 100px;
+      border-radius: 6px;
+    }
+
+    .producto-info {
+      flex: 1;
+      margin-left: 1rem;
+    }
+
+    .btn-agregar {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .btn-agregar:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tienda Online</h1>
+    <p>Encuentra los mejores productos a precios increíbles</p>
+  </header>
+
+  <main>
+    <h2>Productos destacados</h2>
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/100" alt="Producto 1">
+      <div class="producto-info">
+        <h3>Producto 1</h3>
+        <p>Descripción breve del producto número 1.</p>
+      </div>
+      <button class="btn-agregar">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/100" alt="Producto 2">
+      <div class="producto-info">
+        <h3>Producto 2</h3>
+        <p>Descripción breve del producto número 2.</p>
+      </div>
+      <button class="btn-agregar">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/100" alt="Producto 3">
+      <div class="producto-info">
+        <h3>Producto 3</h3>
+        <p>Descripción breve del producto número 3.</p>
+      </div>
+      <button class="btn-agregar">Agregar al carrito</button>
+    </div>
+  </main>
+</body>
+</html>
